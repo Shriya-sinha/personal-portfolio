@@ -5,7 +5,18 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        caveat: ["Caveat", "cursive"],
+        shadows:["Shadows Into Light" ,"cursive"],
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
+      colors :{
+        cyen:'#014854',
+      }
+    },
   },
   plugins: [],
 }
