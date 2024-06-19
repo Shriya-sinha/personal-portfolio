@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
+        allura: ["Allura", "cursive"],
         caveat: ["Caveat", "cursive"],
         shadows:["Shadows Into Light" ,"cursive"],
       },
@@ -14,7 +15,7 @@ export default {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
       colors :{
-        cyen:'#014854',
+        cyen:'#00fff2b6',
       }
     },
   },
