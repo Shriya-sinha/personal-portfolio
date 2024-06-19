@@ -1,10 +1,16 @@
 import Navbar from './Navbar'
-import GirlAnimation from './girl';
+import Home from './home';
+import About from './about';
+import Projects from './projects';
+import Fotter from './fotter';
 const Main = () => {
   return (
     <div>
         <Navbar/>
-        <GirlAnimation/>
+        <Home/>
+        <About/>
+        <Projects/>
+        <Fotter/>
     </div>
   )
 }
