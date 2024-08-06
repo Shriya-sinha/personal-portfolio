@@ -1,7 +1,9 @@
+import Navbar from "../components/Navbar";
 
 const Projects = () => {
   return (
     <>
+      <Navbar />
       <h1
         className="flex justify-center text-6xl text-white font-caveat py-4 font-semibold"
         id="projects"
@@ -20,7 +22,7 @@ const Projects = () => {
               officia non ipsum!
             </p>
             <div className="float-left mt-5">
-              <button className="px-4 py-1 text-sm text-cyen font-semibold rounded-full border border-cyan-200 hover:text-white hover:bg-cyen hover:border-transparent focus:outline-none focus:ring-2 focus:ring-cyen focus:ring-offset-2 dark:ring-offset-zinc-800">
+              <button className="px-4 py-1 text-sm text-cyen font-semibold rounded-full border border-cyan-200 hover:text-white hover:bg-cyen hover:border-transparent focus:outline-none focus:ring-2 focus:ring-cyen focus:ring-offset-2 dark:ring-offset-zinc-800 bg-cyan-500 bg-opacity-5">
                 Details
               </button>
             </div>
@@ -36,7 +38,7 @@ const Projects = () => {
               officia non ipsum!
             </p>
             <div className="float-left mt-5">
-              <button className="px-4 py-1 text-sm text-cyen font-semibold rounded-full border border-cyan-200 hover:text-white hover:bg-cyen hover:border-transparent focus:outline-none focus:ring-2 focus:ring-cyen focus:ring-offset-2 dark:ring-offset-zinc-800">
+              <button className="px-4 py-1 text-sm text-cyen font-semibold rounded-full border border-cyan-200 hover:text-white hover:bg-cyen hover:border-transparent focus:outline-none focus:ring-2 focus:ring-cyen focus:ring-offset-2 dark:ring-offset-zinc-800 bg-cyan-500 bg-opacity-5">
                 Details
               </button>
             </div>
@@ -52,7 +54,7 @@ const Projects = () => {
               officia non ipsum!
             </p>
             <div className="float-left mt-5">
-              <button className="px-4 py-1 text-sm text-cyen font-semibold rounded-full border border-cyan-200 hover:text-white hover:bg-cyen hover:border-transparent focus:outline-none focus:ring-2 focus:ring-cyen focus:ring-offset-2 dark:ring-offset-zinc-800">
+              <button className="px-4 py-1 text-sm text-cyen font-semibold rounded-full border border-cyan-200 hover:text-white hover:bg-cyen hover:border-transparent focus:outline-none focus:ring-2 focus:ring-cyen focus:ring-offset-2 dark:ring-offset-zinc-800 bg-cyan-500 bg-opacity-5">
                 Details
               </button>
             </div>

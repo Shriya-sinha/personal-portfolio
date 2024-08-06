@@ -13,9 +13,9 @@ const Navbar = () => {
           </span>
           <ul className="flex items-center space-x-16">
             <a href="/">Home</a>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#">Contact</a>
+            <a href="/about">About</a>
+            <a href="/projects">Projects</a>
+            <a href="/contact">Contact</a>
             <div className="flex items-center flex-row space-x-4 " id="icons">
               <a href="https://github.com/Shriya-sinha" className="icon-git">
                 <FaGithub size={25} />

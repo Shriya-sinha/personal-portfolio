@@ -1,7 +1,9 @@
 import '../../public/CoffeeArt.png'
+import Navbar from '../components/Navbar';
 const About = () => {
   return (
     <>
+      <Navbar/>
       <div
         className="grid grid-flow-row grid-cols-2 mx-16 py-16 auto"
         id="about"
