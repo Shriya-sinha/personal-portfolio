@@ -1,10 +1,10 @@
+import React from "react";
 
-const Fotter = () => {
+const Footer = () => {
   return (
-    <div>
-        
-    </div>
-  )
-}
+    <>
+    </>
+  );
+};
 
-export default Fotter
+export default Footer;
