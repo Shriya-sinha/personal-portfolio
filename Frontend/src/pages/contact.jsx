@@ -16,6 +16,10 @@ const Contact = () => {
     event.preventDefault();
     setError(""); // Clear previous errors
 
+    if (!name || !email || !message || !subject || !consent) {
+      setError("All fields are required!");
+      return;
+    }
     try {
       const response = await fetch("https://formspree.io/f/xpwadley", {
         method: "POST",
@@ -41,11 +45,11 @@ const Contact = () => {
     <>
       <Navbar />
       <div
-        className="grid grid-flow-row grid-cols-2 mx-36 py-16 auto"
-        id="about"
+        className="grid grid-flow-row grid-cols-1 md:grid-cols-2 mx-4 md:mx-16 py-16"
+        id="contact"
       >
-        <div className="container h-auto px-10">
-          <h1 className="text-6xl text-white font-caveat font-semibold">
+        <div className="container h-auto px-4 md:px-10">
+          <h1 className="text-4xl md:text-6xl text-white font-caveat font-semibold">
             Contact Shreya
           </h1>
           <hr className="w-10 my-8 flex justify-items-start border-cyen" />
@@ -147,7 +151,11 @@ const Contact = () => {
             </div>
             <button
               type="submit"
-              className="px-4 py-1 text-md w-28 text-cyen font-semibold rounded-full border border-cyan-200 hover:text-white hover:bg-cyen hover:border-transparent focus:outline-none focus:ring-2 focus:ring-cyen focus:ring-offset-2 dark:ring-offset-zinc-800 bg-cyan-500 bg-opacity-5"
+              className={`px-4 py-1 text-md w-28 text-cyen font-semibold rounded-full border border-cyan-200 hover:text-white hover:bg-cyen hover:border-transparent focus:outline-none ${
+                submitted
+                  ? ''
+                  : 'focus:ring-2 focus:ring-cyen focus:ring-offset-2 dark:ring-offset-zinc-900'
+              } bg-cyan-500 bg-opacity-5`}
             >
               Submit
             </button>
