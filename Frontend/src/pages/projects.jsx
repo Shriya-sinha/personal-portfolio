@@ -15,7 +15,7 @@ const Projects = () => {
         <div className="flex justify-center items-center mx-auto cards">
           <div className="grid grid-flow-row">
             <img
-              src="../../public/Screenshot 2024-08-23 213916.png"
+              src="headlinehives.png"
               alt="Headline Hives"
               className="w-full h-auto"
             />
@@ -46,7 +46,7 @@ const Projects = () => {
         <div className="flex justify-center items-center mx-auto cards">
           <div className="grid grid-flow-row">
             <img
-              src="../../public/Screenshot 2024-08-23 213348.png"
+              src="LFX.png"
               alt="LFX Mentorship Metrics"
               className="w-full h-auto"
             />
@@ -78,7 +78,7 @@ const Projects = () => {
         <div className="flex justify-center items-center mx-auto cards">
           <div className="grid grid-flow-row">
             <img
-              src="../../public/Screenshot 2024-08-23 214145.png"
+              src="portfolio.png"
               alt="Personal Portfolio"
               className="w-full h-auto"
             />
